@@ -3,9 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "dev": "nodemon src/app.js",
+  "start": "node src/app.js"
+},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/khilan2901/job-board-api.git"
