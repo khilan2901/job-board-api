@@ -1,0 +1,35 @@
+{
+  "name": "job-board-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khilan2901/job-board-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/khilan2901/job-board-api/issues"
+  },
+  "homepage": "https://github.com/khilan2901/job-board-api#readme",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "dotenv": "^17.4.2",
+    "express": "^4.22.2",
+    "express-async-errors": "^3.1.1",
+    "helmet": "^8.2.0",
+    "joi": "^18.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.6.3",
+    "morgan": "^1.10.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
